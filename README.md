@@ -1,2 +1,2 @@
-# ProjectePersona
+# ProjectePersonal
 Web Projecte personal ELISAVA
