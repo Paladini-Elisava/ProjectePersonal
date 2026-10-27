@@ -1,13 +1,183 @@
+/* Colores de la web original */
 body {
-  font-family: sans-serif;
-  margin: 40px;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 1.4;
+  color: #151515;
+  background-color: #f7f6f2;
+}
+
+/* Cabecera */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  margin: 0;
+  font-weight: bold;
+}
+
+nav a {
+  margin-left: 24px;
+  color: #151515;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #f40009;
+}
+
+/* Todas las secciones tienen el mismo margen */
+section {
+  padding: 60px 40px;
+}
+
+/* Portada: texto a la izquierda, dibujo a la derecha */
+.portada {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Las líneas de texto largas cuestan de leer */
+.portada p {
+  max-width: 520px;
+}
+
+.etiqueta {
+  font-size: 13px;
+  font-weight: bold;
 }
 
 h1 {
-  color: #0000ff;
+  margin: 0;
+  font-size: 120px;
+  line-height: 0.85;
+  letter-spacing: -6px;
 }
 
+h2 {
+  font-size: 36px;
+  letter-spacing: -1px;
+}
+
+.data {
+  font-weight: bold;
+}
+
+.boto {
+  display: inline-block;
+  padding: 14px 20px;
+  color: white;
+  background-color: #f40009;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* El dibujo: tres círculos superpuestos */
+.dibuix {
+  position: relative;
+  width: 360px;
+  height: 360px;
+  flex-shrink: 0;
+}
+
+.cercle {
+  position: absolute;
+  border-radius: 50%;
+}
+
+.vermell {
+  width: 240px;
+  height: 240px;
+  top: 0;
+  left: 0;
+  background-color: #f40009;
+}
+
+.lila {
+  width: 200px;
+  height: 200px;
+  top: 40px;
+  right: 0;
+  background-color: #c9b6ff;
+  mix-blend-mode: multiply;
+}
+
+.negre {
+  width: 160px;
+  height: 160px;
+  bottom: 0;
+  left: 100px;
+  background-color: #151515;
+}
+
+/* Tres tarjetas en fila */
+.targetes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 24px;
+}
+
+article {
+  padding-top: 16px;
+  border-top: 3px solid #f40009;
+}
+
+/* Botón de los ponentes */
 button {
-  padding: 8px 16px;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: 2px solid #151515;
+  background-color: white;
   cursor: pointer;
+}
+
+ul {
+  columns: 2;
+  padding-left: 20px;
+}
+
+footer {
+  padding: 40px;
+  color: white;
+  background-color: #151515;
+}
+
+/* En el móvil, todo en una columna */
+@media (max-width: 800px) {
+  header,
+  .portada {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav a {
+    margin-left: 0;
+    margin-right: 16px;
+  }
+
+  h1 {
+    font-size: 64px;
+    letter-spacing: -3px;
+  }
+
+  .dibuix {
+    width: 260px;
+    height: 260px;
+    transform: scale(0.72);
+    transform-origin: top left;
+  }
+
+  .targetes {
+    grid-template-columns: 1fr;
+  }
 }
