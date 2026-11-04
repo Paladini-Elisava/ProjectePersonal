@@ -45,3 +45,14 @@ Criterio: recuperar el fondo general anterior (`#f7f6f2`) y mantener únicamente
 Trabajo: restaurado el color de fondo del `body` y añadido `background-color: #ffffff` a `header`. No se han modificado otros estilos.
 
 Archivos: `style.css`, `LOG.md`.
+
+
+## 04/11/2026 · Control de caché de recursos
+
+Criterio: evitar que el navegador reutilice versiones antiguas de CSS y JavaScript después de actualizar la web. ✅
+
+Trabajo: añadidos parámetros de versión (`?v=20261104-1`) a las referencias de `style.css` y `script.js` en `index.html`. En futuras modificaciones de estos recursos habrá que incrementar la versión de la URL correspondiente.
+
+Archivos: `index.html`, `LOG.md`.
+
+Nota: GitHub Pages aplica su propia caché; no permite configurar libremente las cabeceras HTTP desde este repositorio. Puede seguir existiendo un breve retraso de publicación o caché del propio HTML.
