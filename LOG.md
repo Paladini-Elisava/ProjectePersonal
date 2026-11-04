@@ -36,3 +36,12 @@ Trabajo: actualizado `background-color` del `body` en `style.css` de `#f7f6f2` a
 Archivos: `style.css`.
 
 Pendiente: comprobar visualmente la página publicada.
+
+
+## 04/11/2026 · Recuperar fondo y cabecera blanca
+
+Criterio: recuperar el fondo general anterior (`#f7f6f2`) y mantener únicamente la cabecera con fondo blanco. ✅
+
+Trabajo: restaurado el color de fondo del `body` y añadido `background-color: #ffffff` a `header`. No se han modificado otros estilos.
+
+Archivos: `style.css`, `LOG.md`.
