@@ -25,3 +25,14 @@ Archivos: `index.html`, `style.css`.
 Aprendido: al reutilizar una plantilla web, revisar también los elementos de identidad compartidos (título, cabecera y pie), además del contenido principal.
 
 Pendiente: las secciones inferiores todavía conservan contenidos de la antigua página de Cultura Digital y deberán revisarse en una próxima fase.
+
+
+## 04/11/2026 · Fondo blanco
+
+Criterio: cambiar el fondo general de la web a blanco sin alterar el resto del diseño. ✅
+
+Trabajo: actualizado `background-color` del `body` en `style.css` de `#f7f6f2` a `#ffffff`. Se mantienen los demás estilos, incluido el pie oscuro.
+
+Archivos: `style.css`.
+
+Pendiente: comprobar visualmente la página publicada.
