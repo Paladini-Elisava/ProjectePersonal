@@ -1,58 +1,18 @@
 <!--
 LOG.md · ¿Qué hemos probado y qué ha pasado?
 El registro de lo que has probado con la IA y de qué ha pasado.
-- Una entrada por petición, con su fecha, en pocas líneas.
-- Lo importante es «Aprendido»: la próxima vez irá a tu criterio o a tu SOUL.md.
+- Una entrada por vuelta de cada loop, con su fecha, en pocas líneas.
+- Lo importante es «Aprendido»: la próxima vez irá a tu criterio (INSTRUCTIONS.md) o a tu SOUL.md.
 - También va en los archivos del proyecto: así la IA sabe qué ya no funciona.
 - Lo puede generar / actualizar la IA: revisa lo que escribe.
 -->
 
-# LOG · [Título de tu proyecto]
+# LOG · Landing personal de Daniel Paladini
 
-## [dd/mm] · [Qué pediste]
-Criterio: [la condición clave]. [N] vueltas. [✅ / ❌]
-Aprendido: [qué harás distinto la próxima vez].
-
-
-## 04/11/2026 · Presentación de la portada
-
-Criterio: sustituir la presentación de Cultura Digital por la introducción aprobada de ProjectePersonal, manteniendo la estructura HTML y los estilos existentes. 1 vuelta. ✅
-
-Trabajo: actualizada la portada de `index.html`, el idioma del documento y el título de la página; actualizado el nombre de cabecera y el texto del pie; ajustado el tamaño del `h1` en `style.css` para acomodar el nuevo título.
-
+## 17/11/2026 · Primer scroll · Vuelta 1
+Elegida: portada fotográfica a pantalla completa con el nombre y «Profesor, diseñador y padre», siguiendo la jerarquía de la referencia visual.
+Paleta: se sustituyó el coral inicial por el rojo original del proyecto (`#f40009`).
+Ubicación: Barcelona a 80 px, con latitud y longitud centradas debajo.
 Archivos: `index.html`, `style.css`.
-
-Aprendido: al reutilizar una plantilla web, revisar también los elementos de identidad compartidos (título, cabecera y pie), además del contenido principal.
-
-Pendiente: las secciones inferiores todavía conservan contenidos de la antigua página de Cultura Digital y deberán revisarse en una próxima fase.
-
-
-## 04/11/2026 · Fondo blanco
-
-Criterio: cambiar el fondo general de la web a blanco sin alterar el resto del diseño. ✅
-
-Trabajo: actualizado `background-color` del `body` en `style.css` de `#f7f6f2` a `#ffffff`. Se mantienen los demás estilos, incluido el pie oscuro.
-
-Archivos: `style.css`.
-
-Pendiente: comprobar visualmente la página publicada.
-
-
-## 04/11/2026 · Recuperar fondo y cabecera blanca
-
-Criterio: recuperar el fondo general anterior (`#f7f6f2`) y mantener únicamente la cabecera con fondo blanco. ✅
-
-Trabajo: restaurado el color de fondo del `body` y añadido `background-color: #ffffff` a `header`. No se han modificado otros estilos.
-
-Archivos: `style.css`, `LOG.md`.
-
-
-## 04/11/2026 · Control de caché de recursos
-
-Criterio: evitar que el navegador reutilice versiones antiguas de CSS y JavaScript después de actualizar la web. ✅
-
-Trabajo: añadidos parámetros de versión (`?v=20261104-1`) a las referencias de `style.css` y `script.js` en `index.html`. En futuras modificaciones de estos recursos habrá que incrementar la versión de la URL correspondiente.
-
-Archivos: `index.html`, `LOG.md`.
-
-Nota: GitHub Pages aplica su propia caché; no permite configurar libremente las cabeceras HTTP desde este repositorio. Puede seguir existiendo un breve retraso de publicación o caché del propio HTML.
+Verificación: ✅ vista actualizada y revisada en el navegador local.
+Publicado: no.

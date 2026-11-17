@@ -4,90 +4,35 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>ProjectePersonal · ELISAVA</title>
-  <link rel="stylesheet" href="style.css?v=20261104-1">
+  <meta name="theme-color" content="#171916">
+  <title>Daniel Paladini Adell · Profesor, diseñador y padre</title>
+  <link rel="stylesheet" href="style.css?v=20261117-2">
 </head>
 
 <body>
-
-  <!-- 1. Cabecera: el nombre y el menú -->
-  <header>
-    <p class="logo">PROJECTEPERSONAL</p>
-    <nav>
-      <a href="#inici">Inici</a>
-      <a href="#continguts">Continguts</a>
-      <a href="#ponents">Ponents</a>
-    </nav>
-  </header>
-
   <main>
+    <section class="portada" id="inicio" aria-labelledby="nombre">
+      <div class="textura" aria-hidden="true"></div>
+      <div class="orbita orbita-uno" aria-hidden="true"></div>
+      <div class="orbita orbita-dos" aria-hidden="true"></div>
 
-    <!-- 2. Portada: presentación de ProjectePersonal -->
-    <section id="inici" class="portada">
-      <div>
-        <p class="etiqueta">PROJECTEPERSONAL</p>
-        <h1>PROJECTE<br>PERSONAL</h1>
-        <h2>Pensar, experimentar y aprender haciendo.</h2>
-        <p>Este proyecto nace de la voluntad de convertir ideas en experiencias reales. Un proceso abierto en el que investigar, probar, equivocarse, tomar decisiones y construir conocimiento a través de la práctica.</p>
-        <p>No se trata únicamente de llegar a un resultado, sino de entender cómo llegamos hasta él: qué preguntas nos hacemos, qué herramientas utilizamos, qué descubrimos y qué aprendemos por el camino.</p>
-        <p><strong>Pensar, experimentar, documentar y evolucionar.</strong></p>
+      <div class="portada__contenido">
+        <p class="portada__etiqueta"><span></span> Un poco de todo. Siempre aprendiendo.</p>
+        <h1 id="nombre">Daniel<br>Paladini<br><span>Adell,</span></h1>
+        <p class="portada__bajada">Profesor, diseñador <i>y padre</i></p>
       </div>
 
-      <!-- La imagen está hecha solo con CSS: tres círculos -->
-      <div class="dibuix">
-        <span class="cercle vermell"></span>
-        <span class="cercle lila"></span>
-        <span class="cercle negre"></span>
-      </div>
+      <a class="seguir" href="#siguiente" aria-label="Seguir bajando">
+        <span class="seguir__texto">Sigue bajando</span>
+        <span class="seguir__flecha" aria-hidden="true">↓</span>
+      </a>
+      <p class="portada__pie">Barcelona <span>· 41°23′ N · 2°10′ E</span></p>
     </section>
 
-    <!-- 3. Tres ideas, una al lado de la otra -->
-    <section id="continguts">
-      <h2>Una cultura feta amb les persones</h2>
-      <div class="targetes">
-        <article>
-          <h3>Autonomia</h3>
-          <p>Més eines per crear i decidir la teva cultura.</p>
-        </article>
-        <article>
-          <h3>Creació compartida</h3>
-          <p>Un espai per connectar disciplines, comunitats i coneixements.</p>
-        </article>
-        <article>
-          <h3>Pensament crític</h3>
-          <p>Una mirada atenta a les possibilitats i als reptes de la tecnologia.</p>
-        </article>
-      </div>
+    <section class="siguiente" id="siguiente" aria-label="Siguiente sección">
+      <p>La historia continúa</p>
     </section>
-
-    <!-- 4. Ponentes: la lista está oculta hasta que se pulsa el botón -->
-    <section id="ponents">
-      <h2>Les veus del laboratori</h2>
-      <button id="boton">Mostra els ponents</button>
-      <ul id="llista" hidden>
-        <li>Francesc Camps Vidal</li>
-        <li>Albert Calvet</li>
-        <li>César Llorente</li>
-        <li>Xavi Vinaixa</li>
-        <li>Marçal Font</li>
-        <li>Laura Subirats</li>
-        <li>Susana Medina</li>
-        <li>Ferran Devesa</li>
-        <li>Daniel Paladini</li>
-        <li>Paco Romero</li>
-        <li>Núria Dardinyà</li>
-        <li>Marta La Riva</li>
-        <li>Pia Sommer</li>
-      </ul>
-    </section>
-
   </main>
-
-  <footer>
-    <p>ProjectePersonal · ELISAVA</p>
-  </footer>
-
-  <script src="script.js?v=20261104-1"></script>
 </body>
 
 </html>
