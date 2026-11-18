@@ -16,3 +16,16 @@ Ubicación: Barcelona a 80 px, con latitud y longitud centradas debajo.
 Archivos: `index.html`, `style.css`.
 Verificación: ✅ vista actualizada y revisada en el navegador local.
 Publicado: no.
+
+## 17/11/2026 · Limpieza antes de la demo
+Se eliminaron de la web el primer scroll y el About preparados en las vueltas anteriores, porque Daniel los reconstruirá mañana en una demo con los alumnos.
+Archivos: `index.html`, `style.css`, `CONTEXT.md`.
+Estado actual: página vacía, lista para la sesión de demo.
+
+## 17/11/2026 · Segundo scroll · About
+Estructura: etiqueta lateral «02 / ABOUT», titular de posicionamiento, dos párrafos de biografía y tres áreas de trabajo.
+Contenido: Bellas Artes (UB); recorrido por diseño web/editorial, front-end y dirección de proyectos; cofundador y CPO de Paladini Digital Solutions; profesor de Diseño Editorial e Interacción en Elisava; experiencia en El Periódico de Catalunya y Cases i Associats.
+Fuentes: perfil público de LinkedIn y ficha docente de Elisava.
+Archivos: `index.html`, `style.css`, `CONTEXT.md`.
+Verificación: ✅ sección visible al bajar desde la portada en el navegador local.
+Publicado: no.

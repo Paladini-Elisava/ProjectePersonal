@@ -25,4 +25,4 @@ Público: [quién tiene que llegar aquí y qué tiene que hacer después: escrib
 - 17/11/2026 · El acento es el rojo original del proyecto (`#f40009`); no usar el coral añadido en una primera propuesta porque no pertenece a la paleta acordada.
 
 ## Estado
-Primer scroll implementado en `index.html` y `style.css`, abierto y revisado en el navegador. Siguiente: revisar el encuadre y la composición en móvil y continuar con la sección siguiente.
+El primer scroll y el About que se habían preparado fueron borrados de `index.html` y `style.css` por indicación de Daniel, para reconstruirlos en una demo con los alumnos. Siguiente: crear ambos bloques desde cero durante esa demo.
